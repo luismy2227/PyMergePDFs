@@ -18,10 +18,10 @@ def mergePDFs(*pdfs, **kwargs):
 
 
 if __name__ == '__main__':
-    input_folder = "./public"
-    output_file = "./public/merged.pdf"
+    input_folder = "../public"
+    output_file = "../public/output/merged.pdf"
     # Get a list of PDF files in the input folder
-    pdf_files = ['./public/' +
+    pdf_files = ['../public/' +
                  f for f in os.listdir(input_folder) if f.endswith('.pdf')]
     print(pdf_files)
 
